@@ -13,7 +13,7 @@ export function deactivate() {
 function semicolonCommand(textEditor, textEditorEdit) {
     const line = textEditor.document.lineAt(textEditor.selection.active);
 
-    if (line.text[line.text.length - 1] !== ';') {
+    if (line.text.trim() !== '' && line.text[line.text.length - 1] !== ';') {
         textEditorEdit.insert(line.range.end, ';');
     }
 
