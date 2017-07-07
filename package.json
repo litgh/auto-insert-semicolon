@@ -8,8 +8,22 @@
         "vscode": "^1.13.0"
     },
     "categories": [
+        "Languages",
         "Other"
     ],
+    "keywords": [
+        "java",
+        "auto",
+        "semicolon"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/litgh/auto-insert-semicolon.git"
+    },
+    "homepage": "https://github.com/litgh/auto-insert-semicolon",
+    "bugs": {
+        "url": "https://github.com/litgh/auto-insert-semicolon/issues"
+    },
     "activationEvents": [
         "onCommand:extension.auto-insert-semicolon"
     ],
