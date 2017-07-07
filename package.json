@@ -2,7 +2,7 @@
     "name": "auto-insert-semicolon",
     "displayName": "Auto Insert Semicolon",
     "description": "Append semicolon to the end of current line.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "lizheng",
     "engines": {
         "vscode": "^1.13.0"
