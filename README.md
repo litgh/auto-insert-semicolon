@@ -2,7 +2,7 @@
 
 ## Features
 
-Append semicolon to the end of current line.
+Append semicolon to the end of current line. Default keybind `alt(command)+enter`,
 
 ## Known Issues
 
